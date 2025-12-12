@@ -20,101 +20,70 @@
     <!-- App Content -->
     <div class="flex-1 overflow-y-auto pt-12 px-6 pb-6 text-xs font-medium select-none scrollbar-hide">
       <!-- Header -->
-      <div class="flex justify-between items-baseline mb-6 mt-2">
-        <h2 class="text-3xl font-bold tracking-tight">Mon<span class="text-red-500 ml-0.5">•</span></h2>
-        <div class="text-gray-400 text-[10px] uppercase tracking-wide text-right leading-tight font-semibold">
-          December 9<br>2024
+      <div class="flex justify-between items-center mb-8 mt-2">
+        <h2 class="text-2xl font-bold tracking-tight">Your Season</h2>
+        <button class="text-[10px] text-gray-400 font-semibold uppercase tracking-wide">
+          Share
+        </button>
+      </div>
+
+      <!-- Season Result Card -->
+      <div class="mb-6 p-6 bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl">
+        <div class="text-center mb-4">
+          <div class="text-[10px] text-gray-400 font-semibold uppercase tracking-widest mb-2">You are a</div>
+          <h3 class="text-3xl font-bold tracking-tight mb-1">Soft Autumn</h3>
+          <p class="text-[10px] text-gray-500 leading-relaxed">Warm, muted, and earthy tones complement your natural features</p>
+        </div>
+        
+        <!-- Color Palette -->
+        <div class="grid grid-cols-6 gap-2 mt-4">
+          <div class="aspect-square rounded-lg" style="background-color: #8B7355;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #A0826D;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #C9A87C;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #B85C4E;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #7A5C4E;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #5D6C5D;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #D4A574;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #9B6B4F;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #BC8B5C;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #8B6F47;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #A68B6A;"></div>
+          <div class="aspect-square rounded-lg" style="background-color: #7B8B7A;"></div>
         </div>
       </div>
 
-      <!-- Calendar Strip -->
-      <div class="flex justify-between mb-8 text-[10px] text-gray-400 font-semibold">
-        <div class="flex flex-col items-center gap-1.5">
-          <span class="w-7 h-7 rounded-full bg-black text-white flex items-center justify-center font-bold text-xs">9</span>
-          <span class="text-black font-bold tracking-wide">MON</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">10</span>
-          <span class="tracking-wide">TUE</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">11</span>
-          <span class="tracking-wide">WED</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">12</span>
-          <span class="tracking-wide">THU</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">13</span>
-          <span class="tracking-wide">FRI</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">14</span>
-          <span class="tracking-wide">SAT</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">15</span>
-          <span class="tracking-wide">SUN</span>
+      <!-- Best Colors Section -->
+      <div class="mb-6">
+        <h4 class="text-xs font-bold mb-3 text-gray-900">Your Best Colors</h4>
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl flex-shrink-0" style="background-color: #8B7355;"></div>
+            <div class="flex-1">
+              <div class="text-sm font-semibold">Warm Taupe</div>
+              <div class="text-[10px] text-gray-400">Perfect for everyday wear</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl flex-shrink-0" style="background-color: #B85C4E;"></div>
+            <div class="flex-1">
+              <div class="text-sm font-semibold">Terracotta</div>
+              <div class="text-[10px] text-gray-400">Great for statement pieces</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl flex-shrink-0" style="background-color: #5D6C5D;"></div>
+            <div class="flex-1">
+              <div class="text-sm font-semibold">Sage Green</div>
+              <div class="text-[10px] text-gray-400">Complements your undertones</div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- List -->
-      <div class="space-y-5">
-        <!-- Item 1 -->
-        <div class="flex items-center gap-4">
-          <span class="text-red-500 text-lg leading-none">✻</span>
-          <span class="font-semibold text-sm">Daria's 20th Birthday</span>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="flex items-center gap-4 justify-between group">
-          <div class="flex items-center gap-4">
-            <span class="text-yellow-500 text-lg leading-none">☀</span>
-            <span class="text-sm font-medium">Wake up</span>
-          </div>
-          <span class="text-gray-300 font-medium">09:00</span>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[9px] font-serif italic">Aa</span>
-            <span class="text-sm font-medium">Design Crit</span>
-          </div>
-          <span class="text-gray-300 font-medium">10:00</span>
-        </div>
-
-        <!-- Item 4 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[10px] -rotate-90">✂</span>
-            <span class="text-sm font-medium">Haircut with Vincent</span>
-          </div>
-          <span class="text-gray-300 font-medium">13:00</span>
-        </div>
-
-        <!-- Item 5 -->
-        <div class="flex items-center gap-4">
-          <span class="text-black border-[1.5px] border-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">✓</span>
-          <span class="text-sm font-medium line-through text-gray-400">Make pasta</span>
-        </div>
-
-        <!-- Item 6 -->
-        <div class="flex items-center gap-4 text-gray-400">
-          <span class="border-[1.5px] border-dashed border-gray-300 rounded-full w-5 h-5"></span>
-          <span class="text-sm font-medium">Pushups x100</span>
-        </div>
-
-        <!-- Item 7 -->
-        <div class="flex items-center gap-4 justify-between text-gray-400">
-          <div class="flex items-center gap-4">
-            <span class="text-purple-400 text-lg leading-none">☾</span>
-            <span class="text-black text-sm font-medium">Wind down</span>
-          </div>
-          <span class="text-gray-300 font-medium">21:00</span>
-        </div>
-      </div>
+      <!-- CTA Button -->
+      <button class="w-full bg-black text-white rounded-full py-3.5 text-sm font-semibold mt-4">
+        View Full Color Guide
+      </button>
     </div>
     
     <!-- Home Indicator -->
