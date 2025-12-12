@@ -34,4 +34,32 @@
 	.text-balance {
 		text-wrap: balance;
 	}
+	
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	
+	@keyframes pulse-slow {
+		0%, 100% {
+			opacity: 0.6;
+		}
+		50% {
+			opacity: 0.4;
+		}
+	}
+	
+	.animate-pulse-slow {
+		animation: pulse-slow 4s ease-in-out infinite;
+	}
+	
+	.bg-gradient-radial {
+		background-image: radial-gradient(circle, var(--tw-gradient-stops));
+	}
 }
